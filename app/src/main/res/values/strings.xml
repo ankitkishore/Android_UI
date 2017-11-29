@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blur Dialog Fragment</string>
+    <string name="actions_fullscreen">Full Screen</string>
+    <string name="blur_button">Blur Dialog</string>
+    <string name="blur_title">Blur Sample</string>
+    <string name="dialog_fragment_title">Blur Dialog Fragment\n\nhttps://github.com/tvbarthel/BlurDialogFragment</string>
+    <string name="activity_sample_blur_radius">Blur radius : </string>
+    <string name="activity_sample_down_scale_factor">Down Scale Factor : </string>
+    <string name="activity_sample_blur_debug">Debug enable</string>
+    <string name="activity_sample_blur_dimming">Dimming enable</string>
+    <string name="activity_sample_actionbar_blurred">Apply blur effect on action bar</string>
+    <string name="activity_sample_blur_userendercript">Use RenderScript if possible</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_reset">Reset</string>
+
+    <string name="noboringactionbar_title">Beautiful picture</string>
+    <string name="loreum">Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis difficile dictu est; quid homines suspicentur, videtis; hoc vere tamen licet dicere, P. Scipioni ex multis diebus, quos in vita celeberrimos laetissimosque viderit, illum diem clarissimum fuisse, cum senatu dimisso domum reductus ad vesperum est a patribus conscriptis, populo Romano, sociis et Latinis, pridie quam excessit e vita, ut ex tam alto dignitatis gradu ad superos videatur deos potius quam ad inferos pervenisse.  Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?  Pandente itaque viam fatorum sorte tristissima, qua praestitutum erat eum vita et imperio spoliari, itineribus interiectis permutatione iumentorum emensis venit Petobionem oppidum Noricorum, ubi reseratae sunt insidiarum latebrae omnes, et Barbatio repente apparuit comes, qui sub eo domesticis praefuit, cum Apodemio agente in rebus milites ducens, quos beneficiis suis oppigneratos elegerat imperator certus nec praemiis nec miseratione ulla posse deflecti.  Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium existimans factum aut cogitatum, insontium caedibus fecit victoriam luctuosam.  Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</string>
+
+    <string name="start_simple_target">start simple target</string>
+    <string name="start_custom_target">start custom target</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_scrollview">ScrollView sample</string>
+    <string name="activity_title_fixed_header">Fixed header sample</string>
+    <string name="activity_title_changing_content">Changing content sample</string>
+    <string name="activity_title_listview">ListView sample</string>
+    <string name="activity_title_settings">Settings sample</string>
+    <string name="loren_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</string>
+
+
+    <string name="new_york_city">New York City</string>
+    <string name="activity_title_light_bg">Light background sample</string>
+    <string name="activity_title_light_ab">Light action bar sample</string>
+    <string name="activity_title_fragment">Fragment sample</string>
+    <string name="activity_title_no_parallax">No parallax sample</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">close_drawer</string>
+    <string name="activity_title_navigation">Navigation Drawer Example</string>
+    <string name="short_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</string>
+    <string name="activity_title_header_overlay">Header Overlay Example</string>
+    <string name="activity_title_short_content">Short Content Example (ScrollView)</string>
+    <string name="choose_city">Choose a city</string>
+    <string name="action_change_dataset">Change dataset</string>
+    <string name="activity_title_webview">WebView sample</string>
+    <string name="reset">Reset</string>
+    <string name="activity_title_scrollview1">Scrollview1</string>
+    <string name="activity_title_no_boring_activity">NoBoringActivity Sample</string>
+    <string name="activity_title_explosion_field">Explosion Feild</string>
+    <string name="activity_title_spotlight">Spotlight</string>
+    <string name="activity_title_blur_dialog">Blur Dialog</string>
+
+</resources>

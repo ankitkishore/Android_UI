@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android_ui"
+   >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.android_ui.main.HomeActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android_ui.fadingactionbar.ScrollViewActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.ListViewActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.LightBackgroundActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.LightActionBarActivity"
+            android:icon="@drawable/ic_location_map_dark"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.Light.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.SampleFragmentActivity"
+            android:icon="@drawable/ic_location_map_dark"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.Light.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.NoParallaxActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.NavigationDrawerActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/choose_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.HeaderOverlayActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.WebViewActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.fadingactionbar.ShortContentActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/new_york_city"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.glassactionbardemo.ScrollViewActivity1"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/activity_title_scrollview"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.glassactionbardemo.FixedHeaderActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/activity_title_fixed_header"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.glassactionbardemo.ChangingContentActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/activity_title_changing_content"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.glassactionbardemo.SettingsActivity"
+            android:icon="@drawable/ic_location_map"
+            android:label="@string/activity_title_settings"
+            android:theme="@style/AppTheme.TranslucentActionBar" />
+        <activity
+            android:name="com.android_ui.notboringactionbar.NoBoringActionBarActivity"
+            android:label="@string/noboringactionbar_title"
+            android:theme="@style/TransparentTheme">
+        </activity>
+        <activity
+            android:name="com.android_ui.explosion_field.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.android_ui.spotlight.Spotlight"
+            android:label="Spotlight"
+            android:theme="@style/AppTheme1">
+        </activity>
+        <activity
+            android:name="com.android_ui.blurdialogfragment.SampleActionBarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2">
+
+        </activity>
+
+        <activity
+            android:name="com.android_ui.blurdialogfragment.SampleFullScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FullScreen" />
+    </application>
+
+</manifest>
